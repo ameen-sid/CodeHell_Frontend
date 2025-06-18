@@ -1,0 +1,92 @@
+/* Poppins and Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Edu Sa Beginner */
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.check1 {
+	border-radius: 372.949px;
+	opacity: 0.2;
+	background: var(
+		--gradient-02,
+		linear-gradient(124deg, #8a2be2 -6.46%, #ffa500 59.04%, #f8f8ff 124.53%)
+	);
+	filter: blur(34px);
+}
+
+.check2 {
+	border-radius: 372.949px;
+	opacity: 0.2;
+	background: var(
+		--gradient-05,
+		linear-gradient(118deg, #1fa2ff -3.62%, #12d8fa 50.44%, #a6ffcb 104.51%)
+	);
+	filter: blur(34px);
+}
+
+.backgroundEffect {
+	background: rgba(255, 255, 255, 0.03);
+}
+
+.backgroundImage {
+	background: url("./assets/bgHome.jpg");
+	background-size: 500px;
+}
+
+.leadership {
+	background-image: url("./assets/leaderShipLogo.jpg");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.responsibility {
+	background-image: url("./assets/responsibilityLogo.jpg");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.flexibility {
+	background-image: url("./assets/flexibilityLogo.jpg");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.problem {
+	background-image: url("./assets/solveTheProblemLogo.jpg");
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.font-edu-sa {
+	font-family: "Edu SA Beginner", cursive;
+}
+
+.box-shadow {
+	box-shadow: rgba(255, 255, 255, 0.18) 0px -1px 0px inset;
+}
+
+.form-style {
+	background-color: rgb(44 51 63 / var(--tw-bg-opacity));
+	border-radius: 0.5rem;
+	box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+		var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+	color: rgb(241 242 255 / var(--tw-text-opacity));
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0.75rem;
+	--tw-bg-opacity: 1;
+	--tw-text-opacity: 1;
+	--tw-shadow: 0 1px 0 0;
+	--tw-shadow-colored: 0 1px 0 0 var(--tw-shadow-color);
+	--tw-shadow-color: hsla(0, 0%, 100%, 0.5);
+	--tw-shadow: var(--tw-shadow-colored);
+}
